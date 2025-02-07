@@ -6,21 +6,21 @@ import MemberCard from "../subComponents/MemberCard";
 import { useSelector } from "react-redux";
 import { FaArrowCircleRight } from "react-icons/fa";
 
-function CustomNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className=""
-      style={{
-        ...style,
-        display: "block",
-      }}
-      onClick={onClick}
-    >
-      <FaArrowCircleRight className="text-2xl text-textColor1" />
-    </div>
-  );
-}
+// function CustomNextArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className=""
+//       style={{
+//         ...style,
+//         display: "block",
+//       }}
+//       onClick={onClick}
+//     >
+//       <FaArrowCircleRight className="text-2xl text-textColor1" />
+//     </div>
+//   );
+// }
 
 function Member() {
   let settings = {
