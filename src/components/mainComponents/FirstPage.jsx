@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import IconButton from "../subComponents/IconButton";
 import EventCard from "../subComponents/EventCard";
 import Member from "./Member";
-import Signup from "../mainComponents/Signup";
-import Login from "../mainComponents/Login";
+// import Signup from "../mainComponents/Signup";
+// import Login from "../mainComponents/Login";
 import EventPage from "../mainComponents/EventPage";
 import { delay, motion } from "framer-motion";
 
